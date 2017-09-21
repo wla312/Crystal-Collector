@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal Collector Game William Alt</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<!-- Starting Point -->
+<body>
+
+  <div class="page-header">
+  	<h1 class="text-center">Crystal Collector!</h1>
+  </div>
+  <div id="instructions" class="col-sm-12">
+  	<h2 class="text-center">Instructions:</h2><br>
+  	<p class="text-center">You will be given a random number at the start of the game.</p><br>
+  	<p class="text-center">There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p><br>
+  	<p class="text-center">The value of each crystal is hidden. Click each crystal to determine their values.</p><br>
+  	<p class="text-center">You win the game by matching your total score to the target number. You lose the game if your total score exceeds the target number.</p><br>
+  </div>
+  <div class="col-sm-1"></div>
+  <div id="targetScore" class="col-sm-4 text-center well">Target Score</div>
+  <div id="spacer" class="col-sm-2"></div>
+  <div id="trackWL" class="col-sm-4 text-center well">
+  	<p id="winlose">   </p>
+  	<div id="scoreboard">
+  		<p>Wins:</p>
+  		<p>Losses:</p>
+  	</div>
+  <div class="col-sm-1"></div>
+  </div>
+  <div id="crystals" class="jumbotron text-center"></div>
+  <div id="currentScore" class="col-sm-12 text-center">Current Score: 0 </div>
+
+
+<!-- jQuery CDN link -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Script -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

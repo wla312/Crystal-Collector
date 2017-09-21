@@ -1,0 +1,45 @@
+/*post-bootstrap style adjustments*/
+.page-header {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 25px;
+	background-color: grey;
+	font-size: 2em;
+	color: white;
+	padding: 20px;
+}
+
+#instructions {
+	padding-top: 20px;
+}
+
+.jumbotron {
+	background-color: white;
+	background-image: url("../images/diamonds.jpg");
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-bottom: 0px;
+}
+
+.crystal-image {
+      width: 200px;
+      height: 200px;
+      margin-top: 40px;
+    }
+
+ #targetScore, #trackWL {
+ 	height: 100px;
+ 	background-color: grey;
+ 	padding: 10px;
+ 	font-size: 1.5em;
+ 	color: white;
+ }
+
+#currentScore {
+	height: 70px;
+	background-color: grey;
+	font-size: 1.5em;
+	color: white;
+	padding: 20px;
+}
