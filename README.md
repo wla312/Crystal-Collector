@@ -1,4 +1,4 @@
-# week-4-game
+# Crystal Collector
 Simple Javascript/jQuery game.
 
 Here's how it works:
